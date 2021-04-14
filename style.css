@@ -45,7 +45,7 @@ h1 {
 }
 
 .logo > img {
-  width: 40%;
+  width: 10em;
 }
 
 /* Mockup style */
@@ -81,10 +81,12 @@ h1 {
 .text-wrapper > button {
   background: white;
   border-radius: 2em;
+  border: none;
   padding: 0.2em;
   height: 3em;
-  width: 10em;
-  color: var(--softMagenta);
+  width: 14em;
+  color: var(--violet);
+  box-shadow: 1px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Links style */
