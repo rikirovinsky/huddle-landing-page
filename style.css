@@ -12,7 +12,7 @@ body {
   line-height: 1.5em;
   color: white;
   background: var(--violet);
-  background-image: url("/images/bg-mobile.svg");
+  background-image: url("images/bg-mobile.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
@@ -139,7 +139,7 @@ a > img {
 
 @media screen and (min-width: 1024px) {
   body {
-    background-image: url("/images/bg-desktop.svg");
+    background-image: url("images/bg-desktop.svg");
     background-size: cover;
     padding: 2em;
   }
